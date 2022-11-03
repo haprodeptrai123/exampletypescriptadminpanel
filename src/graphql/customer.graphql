@@ -1,0 +1,10 @@
+query getAllCustomer{
+    laundry_service_customers {
+       customer_id
+       fullname
+       phone
+       address
+       email
+       active 
+    }
+}
